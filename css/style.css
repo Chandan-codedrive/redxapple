@@ -1,0 +1,474 @@
+#top-bar {
+  color: white;
+  background-color: black;
+}
+.contact li,
+.sc-icon-top li {
+  list-style: none;
+  display: inline-block;
+}
+.sc-icon-top {
+  float: right;
+  align-content: center;
+}
+.menue-bar ul {
+  color: white;
+  background-color: red;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.main-logo img {
+  width: 80px;
+  height: auto;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+.menue li {
+  list-style: none;
+  padding: 7px;
+}
+.menue a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.menue a:hover {
+  color: white;
+  background: black;
+  padding: 10px;
+}
+.ourService1{
+  display: flex;
+  text-align: center;
+  
+}
+.ourService1 .col-md-4{
+  padding-top: 40px;
+}
+#ourwork a{
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+  font-weight: 700;
+  }
+#ourwork p{
+  color: red;
+  text-align: justify;
+}
+#ourwork h3{
+  color: red;
+  font-weight: 700;
+}
+#ourwork h5{
+  padding-top: -2000px;
+}
+.fas{
+  font-size: 60px;
+  text-align: center;
+  /*justify-content: center;
+  display: flex;*/
+  color: red;
+}
+
+.prlxtetimonial {
+  background: url(../image/parlax.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgb(255, 0, 0, 0.3);
+  background-blend-mode: overlay;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.tmimage {
+  height: 100px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.prlxtetimonial h5 {
+  margin-top: -30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.prlxtetimonial p {
+  font-size: x-large;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+/*swiper slider*/
+body {
+  
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+/*swiper slider end*/
+.prlxtetimonial h1::before,
+.prlxtetimonial h1::after {
+  display: inline-block;
+  content: "";
+  border-top: 0.3rem solid white;
+  width: 20rem;
+  margin: 0px 1rem;
+  transform: translateY(-10px);
+}
+@media (max-width: 1150px) {
+  .prlxtetimonial h1::before,
+  .prlxtetimonial h1::after {
+    display: inline-block;
+    content: "";
+    border-top: 0.3rem solid white;
+    width: 6rem;
+    margin: 0px 1rem;
+    transform: translateY(-10px);
+  }
+}
+@media (max-width: 600px) {
+  .prlxtetimonial h1::before,
+  .prlxtetimonial h1::after {
+    display: inline-block;
+    content: "";
+    border-top: 0.3rem solid white;
+    width: 2rem;
+    margin: -6px 0.5rem;
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 450px) {
+  .prlxtetimonial h1 {
+    font-size: 20px;
+  }
+}
+
+.progress-bar {
+  animation-name: html;
+}
+.ourclint:
+  max-width: 200px;
+}
+#ourclint {
+  margin-top: 200px;
+  /*background-color: rgba(255, 0, 0, 0.411);*/
+}
+#ourclint .container {
+  font-size: 35px;
+  font-weight: 700;
+  color: red;
+}
+
+/*pogress bar*/
+
+/*pogress bar end*/
+
+/*jssr slider start*/
+/*jssor slider loading skin double-tail-spin css*/
+.jssorl-004-double-tail-spin img {
+  animation-name: jssorl-004-double-tail-spin;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes jssorl-004-double-tail-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*jssor slider bullet skin 031 css*/
+.jssorb031 {
+  position: absolute;
+}
+.jssorb031 .i {
+  position: absolute;
+  cursor: pointer;
+}
+.jssorb031 .i .b {
+  fill: #000;
+  fill-opacity: 0.6;
+  stroke: #fff;
+  stroke-width: 1600;
+  stroke-miterlimit: 10;
+  stroke-opacity: 0.8;
+}
+.jssorb031 .i:hover .b {
+  fill: #fff;
+  fill-opacity: 1;
+  stroke: #000;
+  stroke-opacity: 1;
+}
+.jssorb031 .iav .b {
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 1600;
+  fill-opacity: 0.6;
+}
+.jssorb031 .i.idn {
+  opacity: 0.3;
+}
+
+/*jssor slider arrow skin 051 css*/
+.jssora051 {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+}
+.jssora051 .a {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 360;
+  stroke-miterlimit: 10;
+}
+.jssora051:hover {
+  opacity: 0.8;
+}
+.jssora051.jssora051dn {
+  opacity: 0.5;
+}
+.jssora051.jssora051ds {
+  opacity: 0.3;
+  pointer-events: none;
+}
+/*jssr slider end*/
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+}
+#skillset{
+  color: black; 
+}
+
+#skillset li:before{
+  content: "\f5a1";
+  font-family: fontAwesome;
+  font-size: 20pz;
+  padding: 8px;
+  color: black;
+}
+#skillset li{
+  list-style: none;
+}
+#skillset p, li, h3{
+  font-weight: 500;
+}
+#skillset p,li{
+  font-size: 15px;
+}
+.choseus {
+  padding: 10px;
+  /*border: 2px solid black;*/
+  background: rgb(255, 170, 170);
+  /*filter: blur(20px);*/
+}
+@media (max-width: 980px) {
+  #skillset .container{
+    max-width: 900px;
+  }
+}
+@media (max-width: 900px) {
+  #skillamount h5{
+    display: none !important;
+  }
+  #skillamount{ 
+    margin-right: -50px;
+  }
+}
+#skillsub{
+  font-size: 20px;
+}
+@media (max-width: 430px) {
+  #skillsub{
+    font-size: 15px;
+  }
+}
+@media (max-width: 370px) {
+  #skillsub{
+   display: none;
+  }
+}
+@media (max-width: 370px) {
+  #barsd{
+   position: relative;
+   left: -5px;
+  }
+  #barsd1{
+    position: relative;
+    left: 40px;
+   }
+   #barsd0{
+    position: relative;
+    left: 40px;
+   }
+}
+@media (max-width: 370px) {
+  #barsd::before {
+    content: "\f13b";
+    font-family: fontAwesome;
+    font-size: 25px;
+    display: flex;
+    float: left;
+    margin-left: -25px;
+    margin-top: -10px;
+    color: black;
+  }
+}
+@media (max-width: 370px) {
+  #barsd1::before {
+    content: "\f3b8";
+    font-family: fontAwesome;
+    font-size: 25px;
+    display: flex;
+    float: left;
+    margin-left: -25px;
+    margin-top: -10px;
+    color: black;
+  }
+}
+@media (max-width: 370px) {
+  #barsd0::before {
+    content: "\f38b";
+    font-family: fontAwesome;
+    font-size: 25px;
+    display: flex;
+    float: left;
+    margin-left: -25px;
+    margin-top: -10px;
+    color: black;
+  }
+}
+#ourclint .container h1:before {
+  content: "";
+  border-top: 3px solid red;
+  width: 100px;
+  display: inline-block;
+  margin: 0px 1rem;
+  transform: translateY(-10px);
+}
+#ourclint .container h1:after {
+  display: inline-block;
+  content: "";
+  border-top: 3px solid rgb(240, 26, 26);
+  width: 100px;
+  margin: 0px 1rem;
+  transform: translateY(-10px);
+}
+
+/*our clint media quary*/
+@media (max-width: 440px){
+  #ourclint .container h1:before{
+    width: 50px;
+  }
+  #ourclint .container h1:after{
+    width: 50px;
+  }
+}
+@media (max-width: 320px){
+  #ourclint .container h1:before{
+    width: 30px;
+  }
+  #ourclint .container h1:after{
+    width: 30px;
+  }
+  #barsd{
+    position: relative;
+    left: 5px;
+   }
+}
+#main-nav li{
+  display: block;
+  float: right;
+  position: relative;
+  top: -20px;
+  font-size: 20px;
+}
+#main-nav img{
+  width: 100px;
+  height: auto;
+  }
+#main-nav li a{
+  text-decoration: none;
+}
+#main-nav{
+padding-bottom: -50px;
+}
+#menue-item{
+  position: relative;
+  top: -20px;
+  color: red;
+  display: border-box;
+}
+#menue-item li a{
+  color:red;
+  padding: 10px;
+  transition: 0.3s;
+}
+#menue-item li a:hover{
+  color: white;
+  background-color: red;
+  padding: 10px; 
+}
+#head-banner{
+  position: relative;
+  top: -30px;
+}
+@media (max-width: 640px) {
+  #header-menue img {
+    position: relative;
+    margin-left: 40%;
+  }
+  #head-banner{
+    position: relative;
+    margin-top: 30px;
+  }
+}
+#footer-note{
+  background-color:black;
+  color: white;
+}
+#footer-note a{
+  text-decoration: none;
+  color: white;
+}
+#footer-note .container{
+  padding-top: 10px;
+}
+#ft-joinus,#ft-payment i{
+  font-size: 50px;
+}
+@media(max-width: 570px){
+  #ourclint img{
+    padding-top: 20px;
+  }
+}
+
+
+
+
+
